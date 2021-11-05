@@ -8,6 +8,12 @@ public class Principal{
 	}
 	
 	public static void msgBienvenida(){
-		System.out.println("Bienvenido a Git");
+		msgBienvenida("Bienvenido a Git");
 	}
+	
+	public static void msgBienvenida(String msg){
+		System.out.println(msg);
+	}
+	
+	
 }
