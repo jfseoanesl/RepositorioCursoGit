@@ -3,7 +3,9 @@ public class Principal{
 	
 	public static void main(String args[]){
 		
+
 		ILista lista = new ImplListPersonas();
+
 	}
 	
 	public static void msgBienvenida(){
