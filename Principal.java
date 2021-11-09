@@ -3,9 +3,7 @@ public class Principal{
 	
 	public static void main(String args[]){
 		
-		msgBienvenida();
-		msgBievenida("Gracias por aprender Git");
-		msgBienvenida("Hecho Pro Jairo);
+		ILista lista = new ImplArraysPersona();
 	}
 	
 	public static void msgBienvenida(){
